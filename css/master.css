@@ -5,13 +5,13 @@ body {
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
+  width: 100%;
 }
 
 .login-box {
   width: 320px;
-  height: 140px;
+  height: 170px;
   background: #fff;
-  color: #fff;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -74,4 +74,13 @@ input[type="password"] {
   cursor: pointer;
   background: #ffc107;
   color: #000;
+}
+
+.warnigs {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 50%;
+  text-align: center;
 }

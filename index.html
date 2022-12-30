@@ -11,9 +11,9 @@
     <div class="login-box">
         <img class="avatar" src="img/minecraft-creeper-face.jpg" alt="LogoLMC">
         <h1>LunchMc - AlphaVersion</h1>
-            <form>
-                <label for="username">Username</label>
-                <input type="text" placeholder="Username">
+            <form id="form">
+                <label for="username"></label>
+                <input type="text" class="form_input" placeholder="Username" id="userNAMEID" >
 
             <!--- [This is for the future]
                 <label for="password">Password</label>
@@ -22,9 +22,16 @@
                  <a href="#">NoPremium Login</a> 
             -->
 
-                <input type="Submit" value="Log In">
+                <input type="Submit" value="Log In" id="submit">
+                <p class="warnings" id="warnings"></p>
+
+              <!---   <button type="button" id="submit">test</button>-->
             </form>
 
     </div>
+<!---               [SCRIPTS]          -->
+  <!---   <script src="../LunchMc/src/client/js/scripts.js"></script>-->
+    <script src="./js/script.js"></script>
+  
 </body>
 </html>
